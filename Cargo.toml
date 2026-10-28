@@ -1,0 +1,18 @@
+[package]
+name = "cachetalk"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Zero-syscall covert channel framework for heterogeneous hardware LLM agents"
+
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[dependencies]
+cachetalk-hal = { path = "crates/cachetalk-hal" }
+cachetalk-phy = { path = "crates/cachetalk-phy" }
+cachetalk-modem = { path = "crates/cachetalk-modem" }
+cachetalk-calibrator = { path = "crates/cachetalk-calibrator" }
+cachetalk-mcp = { path = "crates/cachetalk-mcp" }
+serde_json = "1"
