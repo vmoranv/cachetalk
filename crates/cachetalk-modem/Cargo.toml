@@ -1,0 +1,8 @@
+[package]
+name = "cachetalk-modem"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Encoding, framing, modulation and ARQ for cache covert channels"
+
+[dependencies]
