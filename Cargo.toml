@@ -16,3 +16,19 @@ cachetalk-modem = { path = "crates/cachetalk-modem" }
 cachetalk-calibrator = { path = "crates/cachetalk-calibrator" }
 cachetalk-mcp = { path = "crates/cachetalk-mcp" }
 serde_json = "1"
+
+[[bench]]
+name = "modem_bench"
+harness = false
+
+[[bench]]
+name = "phy_bench"
+harness = false
+
+[[bench]]
+name = "calibrator_bench"
+harness = false
+
+[[bench]]
+name = "mcp_bench"
+harness = false
