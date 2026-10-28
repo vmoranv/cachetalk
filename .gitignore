@@ -1,0 +1,5 @@
+/target/
+/artifacts/
+/docs/
+/.ccg/
+.DS_Store
